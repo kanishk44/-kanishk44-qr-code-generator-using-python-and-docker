@@ -41,14 +41,14 @@ Submission Requirements:
 
 ## Command Reference - No Particular Order
 
-* docker build -t kaw393939/python312 . <- builds image called "kaw393939/python312"
-* docker run -it kaw393939/python312   <- Runs python type exit() to get out
-* docker run -it kaw393939/python312 <- Runs the default main.py CMD in the dockerfile
-* docker run -it kaw393939/python312 app.py  <-overrides cmd/command in dockerfile to run app.py instead
+* docker build -t ks468/python312 . <- builds image called "ks468/python312"
+* docker run -it ks468/python312   <- Runs python type exit() to get out
+* docker run -it ks468/python312 <- Runs the default main.py CMD in the dockerfile
+* docker run -it ks468/python312 app.py  <-overrides cmd/command in dockerfile to run app.py instead
 * docker compose up --build < runs the service defined through the docker-compose.yml file that tells it to build the
   Dockerfile
 * docker compose up <- Runs the program but doesn't build a new image
-* docker run --volume /Users/keithwilliams/Desktop/fall2022/qrprog/qr_generator_service/images:/home/myuser/images
+* docker run --volume /Users/kanishk/PycharmProjects/qrprog/images:/home/myuser/images
   Note:  You need to build each time you change your dockerfile
 * docker exec -it <container ID> bash allows you to login to the running container
 * docker tag local-image:tagname new-repo:tagname <renames the image
