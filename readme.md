@@ -10,15 +10,12 @@ Dockerhub to push the Docker image that this project generates.
 
 Submission Requirements:
 
-1. QR code that links to your own project image on Dockerhub
+1. QR code that links to your own project image on Dockerhub:
 
-Example:
 
-* [My Project on Docker Hub QR Code](readme_images/docker_hub.png) <-view with your phone camera and click to go to the site
+![qr_code](https://user-images.githubusercontent.com/48882827/204032551-804a729a-811c-4b96-adf8-605c7b7f5d52.png)
 
-## Lesson Video
 
-[Instructor Video](https://youtu.be/ATajsJRFWEs)
 
 ## Readings - No, really you should read these
 
@@ -41,15 +38,6 @@ Example:
 * https://echohack.medium.com/patterns-with-python-poll-an-api-832173a03e93
 * https://stackoverflow.com/questions/2083987/how-to-retry-after-exception
 
-## Code Photos
-
-* [Dockerfile](readme_images/Dockerfile.png)
-* [docker-compose.yml](readme_images/docker-compose.png)
-* [main.py](readme_images/main_py.png)
-* [config.py](readme_images/config_python.png)
-* [qr_dode dunder init](readme_images/qr_creation_code.png) <-must make folder called "qrcodegenerator" and put the code
-  in the __
-  init__.py
 
 ## Command Reference - No Particular Order
 
